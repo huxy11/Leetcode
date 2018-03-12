@@ -7,9 +7,11 @@
 //
 
 #include <stdio.h>
+#include "BinaryTree.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("Hello, World!\n");
+    printf("Test starts!\n");
+    test_617();
     return 0;
 }
