@@ -8,10 +8,20 @@
 
 #include <stdio.h>
 #include "BinaryTree.h"
+#include "List.h"
+#include "bitmap.h"
+#include "queens.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Test starts!\n");
-    test_617();
+    
+//    test_bitmap();
+//    test_queens()
+    int32_t num, num2;
+    printf("scanf = %d\n",scanf("%d.%d", &num, &num2));
+    printf("%d->%d\n", num, num2);
+    
+    
     return 0;
 }
