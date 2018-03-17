@@ -44,6 +44,5 @@ void test_617(void)
     TreeNode *s1 = creatTree("[1,3,2,5]");
     TreeNode *s2 = creatTree("[2,1,3,null,4,null,7]");
     mergeTrees(s1, s2);
-    TreeNode *sting = s1;
     printTreePre(s1);
 }

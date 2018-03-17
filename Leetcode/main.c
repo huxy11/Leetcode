@@ -9,19 +9,15 @@
 #include <stdio.h>
 #include "BinaryTree.h"
 #include "List.h"
-#include "bitmap.h"
+#include "Bitmap.h"
 #include "queens.h"
+#include "Stack.h"
+#include "Queue.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Test starts!\n");
-    
-//    test_bitmap();
-//    test_queens()
-    int32_t num, num2;
-    printf("scanf = %d\n",scanf("%d.%d", &num, &num2));
-    printf("%d->%d\n", num, num2);
-    
-    
+    test_bt();
+//    test_q();
     return 0;
 }
