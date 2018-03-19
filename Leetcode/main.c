@@ -13,11 +13,14 @@
 #include "queens.h"
 #include "Stack.h"
 #include "Queue.h"
+#include "BST.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Test starts!\n");
-    test_bt();
+//    test_bt();
 //    test_q();
+//    test_List();
+    test_BST();
     return 0;
 }

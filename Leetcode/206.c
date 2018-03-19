@@ -8,7 +8,7 @@
 
 #include "206.h"
 
-struct ListNode* reverseList(struct ListNode* head) {
+struct ListNode* reverseList1(struct ListNode* head) {
     if (!head)
         return NULL;
     struct ListNode *pre, *cur, *post;
@@ -32,6 +32,6 @@ struct ListNode* reverseList(struct ListNode* head) {
 void test_206(void)
 {
     list* head = creatList("[1]");
-    head = reverseList(head);
+    head = reverseList1(head);
     printList(head);
 }
