@@ -7,6 +7,7 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
 #include "BinaryTree.h"
 #include "List.h"
 #include "Bitmap.h"
@@ -21,6 +22,9 @@ int main(int argc, const char * argv[]) {
 //    test_bt();
 //    test_q();
 //    test_List();
-    test_BST();
+//    test_BST();
+    float f = 13.8;
+    printf("%d\n", (int)f % 3);
+
     return 0;
 }

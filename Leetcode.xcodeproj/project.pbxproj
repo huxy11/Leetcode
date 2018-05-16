@@ -13,11 +13,17 @@
 		D54DBD8D2058257500CD44B1 /* List.c in Sources */ = {isa = PBXBuildFile; fileRef = D54DBD8C2058257500CD44B1 /* List.c */; };
 		D54DBD902058F5A300CD44B1 /* 206.c in Sources */ = {isa = PBXBuildFile; fileRef = D54DBD8F2058F5A300CD44B1 /* 206.c */; };
 		D54DBD932058FDF900CD44B1 /* 637.c in Sources */ = {isa = PBXBuildFile; fileRef = D54DBD922058FDF900CD44B1 /* 637.c */; };
+		D54DBD972059A39600CD44B1 /* Bitmap.c in Sources */ = {isa = PBXBuildFile; fileRef = D54DBD962059A39600CD44B1 /* Bitmap.c */; };
+		D54DBD9A205A23C600CD44B1 /* queens.c in Sources */ = {isa = PBXBuildFile; fileRef = D54DBD99205A23C600CD44B1 /* queens.c */; };
 		D55ABB731F33188C00D3EABC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D55ABB721F33188C00D3EABC /* main.c */; };
 		D55ABB7B1F33189E00D3EABC /* 650.c in Sources */ = {isa = PBXBuildFile; fileRef = D55ABB791F33189E00D3EABC /* 650.c */; };
 		D55ABB7E1F331D5C00D3EABC /* 647.c in Sources */ = {isa = PBXBuildFile; fileRef = D55ABB7C1F331D5C00D3EABC /* 647.c */; };
 		D55ABB811F33245C00D3EABC /* 646.c in Sources */ = {isa = PBXBuildFile; fileRef = D55ABB7F1F33245C00D3EABC /* 646.c */; };
 		D55ABB841F39FFE200D3EABC /* 655.c in Sources */ = {isa = PBXBuildFile; fileRef = D55ABB821F39FFE200D3EABC /* 655.c */; };
+		D59BA17E2090BDEF00A083C5 /* my_string.c in Sources */ = {isa = PBXBuildFile; fileRef = D59BA17D2090BDEF00A083C5 /* my_string.c */; };
+		D5C2779B205D57F7005F3FE3 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = D5C2779A205D57F7005F3FE3 /* Stack.c */; };
+		D5C2779E205DA095005F3FE3 /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = D5C2779D205DA095005F3FE3 /* Queue.c */; };
+		D5C277A1205E87CE005F3FE3 /* BST.c in Sources */ = {isa = PBXBuildFile; fileRef = D5C277A0205E87CE005F3FE3 /* BST.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +51,10 @@
 		D54DBD8F2058F5A300CD44B1 /* 206.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 206.c; sourceTree = "<group>"; };
 		D54DBD912058FDF900CD44B1 /* 637.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 637.h; sourceTree = "<group>"; };
 		D54DBD922058FDF900CD44B1 /* 637.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 637.c; sourceTree = "<group>"; };
+		D54DBD952059A39600CD44B1 /* Bitmap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bitmap.h; sourceTree = "<group>"; };
+		D54DBD962059A39600CD44B1 /* Bitmap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Bitmap.c; sourceTree = "<group>"; };
+		D54DBD98205A23C600CD44B1 /* queens.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queens.h; sourceTree = "<group>"; };
+		D54DBD99205A23C600CD44B1 /* queens.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = queens.c; sourceTree = "<group>"; };
 		D55ABB6F1F33188C00D3EABC /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		D55ABB721F33188C00D3EABC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		D55ABB791F33189E00D3EABC /* 650.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 650.c; sourceTree = "<group>"; };
@@ -55,6 +65,14 @@
 		D55ABB801F33245C00D3EABC /* 646.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 646.h; sourceTree = "<group>"; };
 		D55ABB821F39FFE200D3EABC /* 655.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 655.c; sourceTree = "<group>"; };
 		D55ABB831F39FFE200D3EABC /* 655.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 655.h; sourceTree = "<group>"; };
+		D59BA17C2090BDEF00A083C5 /* my_string.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = my_string.h; sourceTree = "<group>"; };
+		D59BA17D2090BDEF00A083C5 /* my_string.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_string.c; sourceTree = "<group>"; };
+		D5C27799205D57F7005F3FE3 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		D5C2779A205D57F7005F3FE3 /* Stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
+		D5C2779C205DA095005F3FE3 /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		D5C2779D205DA095005F3FE3 /* Queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Queue.c; sourceTree = "<group>"; };
+		D5C2779F205E87CE005F3FE3 /* BST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BST.h; sourceTree = "<group>"; };
+		D5C277A0205E87CE005F3FE3 /* BST.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BST.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,17 +89,33 @@
 		D54DBD8020565BD700CD44B1 /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				D54DBD952059A39600CD44B1 /* Bitmap.h */,
+				D54DBD962059A39600CD44B1 /* Bitmap.c */,
 				D54DBD8220565C0D00CD44B1 /* BinaryTree.h */,
 				D54DBD8320565C0D00CD44B1 /* BinaryTree.c */,
 				D54DBD8B2058257500CD44B1 /* List.h */,
 				D54DBD8C2058257500CD44B1 /* List.c */,
+				D5C27799205D57F7005F3FE3 /* Stack.h */,
+				D5C2779A205D57F7005F3FE3 /* Stack.c */,
+				D5C2779C205DA095005F3FE3 /* Queue.h */,
+				D5C2779D205DA095005F3FE3 /* Queue.c */,
+				D5C2779F205E87CE005F3FE3 /* BST.h */,
+				D5C277A0205E87CE005F3FE3 /* BST.c */,
 			);
 			path = DataStructure;
+			sourceTree = "<group>";
+		};
+		D54DBD942059A37900CD44B1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		D55ABB661F33188C00D3EABC = {
 			isa = PBXGroup;
 			children = (
+				D59BA17B2090BDD600A083C5 /* String */,
 				D55ABB711F33188C00D3EABC /* Leetcode */,
 				D55ABB701F33188C00D3EABC /* Products */,
 			);
@@ -98,6 +132,7 @@
 		D55ABB711F33188C00D3EABC /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				D54DBD942059A37900CD44B1 /* Common */,
 				D54DBD8020565BD700CD44B1 /* DataStructure */,
 				D55ABB721F33188C00D3EABC /* main.c */,
 				D55ABB791F33189E00D3EABC /* 650.c */,
@@ -116,8 +151,19 @@
 				D54DBD8F2058F5A300CD44B1 /* 206.c */,
 				D54DBD912058FDF900CD44B1 /* 637.h */,
 				D54DBD922058FDF900CD44B1 /* 637.c */,
+				D54DBD98205A23C600CD44B1 /* queens.h */,
+				D54DBD99205A23C600CD44B1 /* queens.c */,
 			);
 			path = Leetcode;
+			sourceTree = "<group>";
+		};
+		D59BA17B2090BDD600A083C5 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				D59BA17C2090BDEF00A083C5 /* my_string.h */,
+				D59BA17D2090BDEF00A083C5 /* my_string.c */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,17 +223,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5C2779E205DA095005F3FE3 /* Queue.c in Sources */,
 				D54DBD932058FDF900CD44B1 /* 637.c in Sources */,
 				D54DBD7D2056536A00CD44B1 /* 617.c in Sources */,
 				D54DBD8D2058257500CD44B1 /* List.c in Sources */,
 				D55ABB7E1F331D5C00D3EABC /* 647.c in Sources */,
 				D55ABB731F33188C00D3EABC /* main.c in Sources */,
 				D54DBD872056B0F500CD44B1 /* 669.c in Sources */,
+				D5C2779B205D57F7005F3FE3 /* Stack.c in Sources */,
 				D55ABB811F33245C00D3EABC /* 646.c in Sources */,
+				D59BA17E2090BDEF00A083C5 /* my_string.c in Sources */,
 				D55ABB841F39FFE200D3EABC /* 655.c in Sources */,
 				D55ABB7B1F33189E00D3EABC /* 650.c in Sources */,
+				D54DBD9A205A23C600CD44B1 /* queens.c in Sources */,
+				D54DBD972059A39600CD44B1 /* Bitmap.c in Sources */,
 				D54DBD902058F5A300CD44B1 /* 206.c in Sources */,
 				D54DBD8420565C0D00CD44B1 /* BinaryTree.c in Sources */,
+				D5C277A1205E87CE005F3FE3 /* BST.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
