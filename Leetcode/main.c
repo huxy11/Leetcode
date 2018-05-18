@@ -15,16 +15,16 @@
 #include "Stack.h"
 #include "Queue.h"
 #include "BST.h"
+#include "811.h"
+
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Test starts!\n");
-//    test_bt();
-//    test_q();
-//    test_List();
-//    test_BST();
-    float f = 13.8;
-    printf("%d\n", (int)f % 3);
-
-    return 0;
+    int* returnSize = 0;
+    char* cpdomains[1];
+    cpdomains[0] = malloc(24);
+    strcpy(cpdomains[0], "9001 discuss.leetcode.com");
+    subdomainVisits(cpdomains, 1, returnSize);
 }
