@@ -12,7 +12,7 @@ bool judgeCircle(char* moves)
 {
     static int col[86];
     static int row[86];
-    printf("U:%d, D:%d L:%d, R:%d\n", 'U','D','L','R');
+//    printf("U:%d, D:%d L:%d, R:%d\n", 'U','D','L','R');
     col['U'] = 1; col['D'] = -1;
     row['L'] = 1; row['R'] = -1;
     uint32_t n = 0;
