@@ -18,6 +18,4 @@ struct TreeNode {
     struct TreeNode* right;
 };
 
-void test_655();
-
 #endif /* _55_h */

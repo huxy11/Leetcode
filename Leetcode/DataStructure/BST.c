@@ -133,5 +133,6 @@ void test_BST(void)
     re = findBST(root, 11);
     printf("%d\n", re->val);
     deleteBST(root, 8);
+    max(root);
     return;
 }

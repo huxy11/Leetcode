@@ -7,7 +7,7 @@
 //
 
 #include "561.h"
-void qs(int32_t *a, int32_t lo, int32_t hi)
+static void qs(int32_t *a, int32_t lo, int32_t hi)
 {
     int32_t i = lo;
     int32_t j = hi;
