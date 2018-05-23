@@ -15,13 +15,12 @@
 #include "Stack.h"
 #include "Queue.h"
 #include "BST.h"
-#include "485.h"
+#include "796.h"
 
 
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Test starts!\n");
-    int rs[] ={0,1};
-    printf("%d\n", findMaxConsecutiveOnes(rs, 2));
+    printf("%d\n",rotateString("abcde", "abced"));
 }
