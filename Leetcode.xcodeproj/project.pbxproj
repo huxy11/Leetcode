@@ -64,6 +64,7 @@
 		D5C2779B205D57F7005F3FE3 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = D5C2779A205D57F7005F3FE3 /* Stack.c */; };
 		D5C2779E205DA095005F3FE3 /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = D5C2779D205DA095005F3FE3 /* Queue.c */; };
 		D5C277A1205E87CE005F3FE3 /* BST.c in Sources */ = {isa = PBXBuildFile; fileRef = D5C277A0205E87CE005F3FE3 /* BST.c */; };
+		D5FD694820B6A02400BDF281 /* 389.c in Sources */ = {isa = PBXBuildFile; fileRef = D5FD694720B6A02400BDF281 /* 389.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -193,6 +194,8 @@
 		D5C2779D205DA095005F3FE3 /* Queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Queue.c; sourceTree = "<group>"; };
 		D5C2779F205E87CE005F3FE3 /* BST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BST.h; sourceTree = "<group>"; };
 		D5C277A0205E87CE005F3FE3 /* BST.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BST.c; sourceTree = "<group>"; };
+		D5FD694620B6A02400BDF281 /* 389.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 389.h; sourceTree = "<group>"; };
+		D5FD694720B6A02400BDF281 /* 389.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 389.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -353,6 +356,8 @@
 				D508DE8420B41B100085F0E2 /* 283.c */,
 				D508DE8920B53E830085F0E2 /* 796.h */,
 				D508DE8A20B53E830085F0E2 /* 796.c */,
+				D5FD694620B6A02400BDF281 /* 389.h */,
+				D5FD694720B6A02400BDF281 /* 389.c */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -437,6 +442,7 @@
 				D508DE6420B31AF70085F0E2 /* 191.c in Sources */,
 				D508DE7020B32A7B0085F0E2 /* 521.c in Sources */,
 				D5BB110F20AEFDD900509927 /* 657.c in Sources */,
+				D5FD694820B6A02400BDF281 /* 389.c in Sources */,
 				D5BB110C20AEF8E800509927 /* 461.c in Sources */,
 				D5C2779E205DA095005F3FE3 /* Queue.c in Sources */,
 				D54DBD932058FDF900CD44B1 /* 637.c in Sources */,
