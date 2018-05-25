@@ -28,7 +28,6 @@ static void qs(char *a, size_t lo, size_t hi)
     qs(a, m + 1, hi);
 }
 
-
 char findTheDifference(char* ss, char* tt) {
     if (!ss)
         return tt[0];

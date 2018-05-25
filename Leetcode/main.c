@@ -52,35 +52,6 @@ static void swap(int* a, int* b)
     *b = tmp;
 }
 
-static void qs_modified(int *a, int* lo, int* hi, int* n)
-{
-    uint32_t m = 0;
-    for (;m < *n; m++) {
-        uint32_t i = lo[m];
-        uint32_t j = hi[m];
-        while (i < j) {
-            while (i <= j && a[i] < a[j])
-                i++;
-            if (i < j)
-                swap(&a[i++], &a[j]);
-            while (i <= j && a[i] < a[j])
-                j--;
-            if (i < j)
-                swap(&a[i], &a[j--]);
-            if (j == hi[m])
-                j--;
-            if (i < hi[m]) {
-                lo[++(*n)] = i;
-                hi[*n] = hi[m];
-            }
-            if (j > lo[m]) {
-                lo[++(*n)] = lo[m];
-                hi[*n] = j;
-            }
-        }
-    }
-}
-
 static void qs(int *a, size_t lo, size_t hi)
 {
     if (lo >= hi)
@@ -97,7 +68,8 @@ static void qs(int *a, size_t lo, size_t hi)
 }
 
 
-int main(int argc, const char * argv[]) {
+
+static int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Test starts!\n");
     printf("%c\n", findTheDifference("qwertyuiopsdfghjklzxcvbnm", "mnbvcxzsdfghjklpoiauytrewq"));

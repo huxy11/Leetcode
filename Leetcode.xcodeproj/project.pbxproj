@@ -48,7 +48,6 @@
 		D55ABB811F33245C00D3EABC /* 646.c in Sources */ = {isa = PBXBuildFile; fileRef = D55ABB7F1F33245C00D3EABC /* 646.c */; };
 		D55ABB841F39FFE200D3EABC /* 655.c in Sources */ = {isa = PBXBuildFile; fileRef = D55ABB821F39FFE200D3EABC /* 655.c */; };
 		D59BA17E2090BDEF00A083C5 /* my_string.c in Sources */ = {isa = PBXBuildFile; fileRef = D59BA17D2090BDEF00A083C5 /* my_string.c */; };
-		D5BB110320AC5A5000509927 /* 771.c in Sources */ = {isa = PBXBuildFile; fileRef = D5BB110120AC5A4F00509927 /* 771.c */; };
 		D5BB110620AD6FF200509927 /* 832.c in Sources */ = {isa = PBXBuildFile; fileRef = D5BB110520AD6FF200509927 /* 832.c */; };
 		D5BB110920AD8A9700509927 /* 804.c in Sources */ = {isa = PBXBuildFile; fileRef = D5BB110820AD8A9700509927 /* 804.c */; };
 		D5BB110C20AEF8E800509927 /* 461.c in Sources */ = {isa = PBXBuildFile; fileRef = D5BB110B20AEF8E800509927 /* 461.c */; };
@@ -65,6 +64,8 @@
 		D5C2779E205DA095005F3FE3 /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = D5C2779D205DA095005F3FE3 /* Queue.c */; };
 		D5C277A1205E87CE005F3FE3 /* BST.c in Sources */ = {isa = PBXBuildFile; fileRef = D5C277A0205E87CE005F3FE3 /* BST.c */; };
 		D5FD694820B6A02400BDF281 /* 389.c in Sources */ = {isa = PBXBuildFile; fileRef = D5FD694720B6A02400BDF281 /* 389.c */; };
+		D5FD694B20B7D9C500BDF281 /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = D5FD694A20B7D9C500BDF281 /* QuickSort.c */; };
+		D5FD694E20B7F18B00BDF281 /* 448.c in Sources */ = {isa = PBXBuildFile; fileRef = D5FD694D20B7F18B00BDF281 /* 448.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -162,8 +163,6 @@
 		D55ABB831F39FFE200D3EABC /* 655.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 655.h; sourceTree = "<group>"; };
 		D59BA17C2090BDEF00A083C5 /* my_string.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = my_string.h; sourceTree = "<group>"; };
 		D59BA17D2090BDEF00A083C5 /* my_string.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_string.c; sourceTree = "<group>"; };
-		D5BB110120AC5A4F00509927 /* 771.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 771.c; sourceTree = "<group>"; };
-		D5BB110220AC5A4F00509927 /* 771.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 771.h; sourceTree = "<group>"; };
 		D5BB110420AD6FF200509927 /* 832.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 832.h; sourceTree = "<group>"; };
 		D5BB110520AD6FF200509927 /* 832.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 832.c; sourceTree = "<group>"; };
 		D5BB110720AD8A9700509927 /* 804.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 804.h; sourceTree = "<group>"; };
@@ -196,6 +195,10 @@
 		D5C277A0205E87CE005F3FE3 /* BST.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BST.c; sourceTree = "<group>"; };
 		D5FD694620B6A02400BDF281 /* 389.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 389.h; sourceTree = "<group>"; };
 		D5FD694720B6A02400BDF281 /* 389.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 389.c; sourceTree = "<group>"; };
+		D5FD694920B7D9C500BDF281 /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		D5FD694A20B7D9C500BDF281 /* QuickSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = QuickSort.c; sourceTree = "<group>"; };
+		D5FD694C20B7F18B00BDF281 /* 448.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 448.h; sourceTree = "<group>"; };
+		D5FD694D20B7F18B00BDF281 /* 448.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 448.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +227,8 @@
 				D5C2779D205DA095005F3FE3 /* Queue.c */,
 				D5C2779F205E87CE005F3FE3 /* BST.h */,
 				D5C277A0205E87CE005F3FE3 /* BST.c */,
+				D5FD694920B7D9C500BDF281 /* QuickSort.h */,
+				D5FD694A20B7D9C500BDF281 /* QuickSort.c */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
@@ -255,8 +260,6 @@
 		D55ABB711F33188C00D3EABC /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				D5BB110120AC5A4F00509927 /* 771.c */,
-				D5BB110220AC5A4F00509927 /* 771.h */,
 				D54DBD942059A37900CD44B1 /* Common */,
 				D54DBD8020565BD700CD44B1 /* DataStructure */,
 				D55ABB721F33188C00D3EABC /* main.c */,
@@ -358,6 +361,8 @@
 				D508DE8A20B53E830085F0E2 /* 796.c */,
 				D5FD694620B6A02400BDF281 /* 389.h */,
 				D5FD694720B6A02400BDF281 /* 389.c */,
+				D5FD694C20B7F18B00BDF281 /* 448.h */,
+				D5FD694D20B7F18B00BDF281 /* 448.c */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -431,6 +436,7 @@
 				D508DE8B20B53E830085F0E2 /* 796.c in Sources */,
 				D508DE6A20B3248C0085F0E2 /* 292.c in Sources */,
 				D508DE6720B31D060085F0E2 /* 338.c in Sources */,
+				D5FD694B20B7D9C500BDF281 /* QuickSort.c in Sources */,
 				D508DE6120B317BD0085F0E2 /* 190.c in Sources */,
 				D508DE8520B41B100085F0E2 /* 283.c in Sources */,
 				D508DE5E20B315870085F0E2 /* 260.c in Sources */,
@@ -438,6 +444,7 @@
 				D508DE4F20B19EA10085F0E2 /* 824.c in Sources */,
 				D508DE3D20B1459A0085F0E2 /* 575.c in Sources */,
 				D508DE7C20B40CC10085F0E2 /* 695.c in Sources */,
+				D5FD694E20B7F18B00BDF281 /* 448.c in Sources */,
 				D5BB112120B018E800509927 /* 821.c in Sources */,
 				D508DE6420B31AF70085F0E2 /* 191.c in Sources */,
 				D508DE7020B32A7B0085F0E2 /* 521.c in Sources */,
@@ -465,7 +472,6 @@
 				D5C2779B205D57F7005F3FE3 /* Stack.c in Sources */,
 				D55ABB811F33245C00D3EABC /* 646.c in Sources */,
 				D508DE8220B4155E0085F0E2 /* 520.c in Sources */,
-				D5BB110320AC5A5000509927 /* 771.c in Sources */,
 				D59BA17E2090BDEF00A083C5 /* my_string.c in Sources */,
 				D508DE4920B194EB0085F0E2 /* 566.c in Sources */,
 				D55ABB841F39FFE200D3EABC /* 655.c in Sources */,
