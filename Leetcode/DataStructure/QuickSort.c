@@ -36,7 +36,7 @@ void quickSort(void *a, const size_t size, const size_t lo, const size_t hi)
         quickSort(a, size, m + 1, hi);
 }
 
-int main(int argc, const char* argv[])
+static int main(int argc, const char* argv[])
 {
     int a[] = {9,99,99,99,2,3,4,4,4,2,1};
     int len = sizeof(a)/sizeof(int);

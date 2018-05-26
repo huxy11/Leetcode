@@ -66,6 +66,7 @@
 		D5FD694820B6A02400BDF281 /* 389.c in Sources */ = {isa = PBXBuildFile; fileRef = D5FD694720B6A02400BDF281 /* 389.c */; };
 		D5FD694B20B7D9C500BDF281 /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = D5FD694A20B7D9C500BDF281 /* QuickSort.c */; };
 		D5FD694E20B7F18B00BDF281 /* 448.c in Sources */ = {isa = PBXBuildFile; fileRef = D5FD694D20B7F18B00BDF281 /* 448.c */; };
+		D5FD695120B91FAA00BDF281 /* 788.c in Sources */ = {isa = PBXBuildFile; fileRef = D5FD695020B91FAA00BDF281 /* 788.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -199,6 +200,8 @@
 		D5FD694A20B7D9C500BDF281 /* QuickSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = QuickSort.c; sourceTree = "<group>"; };
 		D5FD694C20B7F18B00BDF281 /* 448.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 448.h; sourceTree = "<group>"; };
 		D5FD694D20B7F18B00BDF281 /* 448.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 448.c; sourceTree = "<group>"; };
+		D5FD694F20B91FAA00BDF281 /* 788.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 788.h; sourceTree = "<group>"; };
+		D5FD695020B91FAA00BDF281 /* 788.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 788.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -363,6 +366,8 @@
 				D5FD694720B6A02400BDF281 /* 389.c */,
 				D5FD694C20B7F18B00BDF281 /* 448.h */,
 				D5FD694D20B7F18B00BDF281 /* 448.c */,
+				D5FD694F20B91FAA00BDF281 /* 788.h */,
+				D5FD695020B91FAA00BDF281 /* 788.c */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -442,6 +447,7 @@
 				D508DE5E20B315870085F0E2 /* 260.c in Sources */,
 				D508DE5220B1A8930085F0E2 /* 693.c in Sources */,
 				D508DE4F20B19EA10085F0E2 /* 824.c in Sources */,
+				D5FD695120B91FAA00BDF281 /* 788.c in Sources */,
 				D508DE3D20B1459A0085F0E2 /* 575.c in Sources */,
 				D508DE7C20B40CC10085F0E2 /* 695.c in Sources */,
 				D5FD694E20B7F18B00BDF281 /* 448.c in Sources */,

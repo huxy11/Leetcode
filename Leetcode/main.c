@@ -15,7 +15,7 @@
 #include "Stack.h"
 #include "Queue.h"
 #include "BST.h"
-#include "389.h"
+#include "788.h"
 
 static int fb_tail(int* a, int* n)
 {
@@ -69,8 +69,8 @@ static void qs(int *a, size_t lo, size_t hi)
 
 
 
-static int main(int argc, const char * argv[]) {
+int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Test starts!\n");
-    printf("%c\n", findTheDifference("qwertyuiopsdfghjklzxcvbnm", "mnbvcxzsdfghjklpoiauytrewq"));
+    rotatedDigits(857);
 }
