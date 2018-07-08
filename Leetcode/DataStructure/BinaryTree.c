@@ -7,6 +7,10 @@
 //
 
 #include "BinaryTree.h"
+/*
+ 创建一个节点,没什么特别的
+ Creat a new TreeNode, nothing special.
+ */
 TreeNode* creatTreeNode(int32_t val)
 {
     TreeNode* re = malloc(sizeof(TreeNode));
@@ -15,16 +19,25 @@ TreeNode* creatTreeNode(int32_t val)
     re->right = NULL;
     return re;
 }
+/*
+ 根据LeetCode风格的输入创建一颗二叉树，返回root，暂规定节点少于100个。
+ Creat a new BinaryTree based on the LeetCode-style string, returing root.
+ e.g: "[3,4,5,5,4,null,7]"
+ */
 
 TreeNode* creatTree (const char *in)
 {
     if (!in)
         return NULL;
-    static struct TreeNode* n[100];
-    char *input = malloc(200);
+    struct TreeNode** n = malloc(sizeof(struct TreeNode*) * 100);
+    //n指向一个包含树所有节点指针的指针数组，方便通过编号确定父子关系—————因为输入是完全二叉树的顺序,\
+    所以n[i]的左右子树分别为n[2*i+1]和n[2*i+2]
+    memset(n, 0, sizeof(struct TreeNode*) * 100);
+    char *input = malloc(400);
+    char *input_base = input;
     strcpy(input, in);
     if (*input++ != '[') {
-        printf("wrong input!\n");
+        printf("It seems input is NOT leetcode BinaryTree style!\n");
         return NULL;
     }
     int32_t cnt = 0;
@@ -34,8 +47,7 @@ TreeNode* creatTree (const char *in)
         }
         else {
             int32_t val = atoi(s);
-            n[cnt] = malloc(sizeof(struct TreeNode));
-            n[cnt]->val = val;
+            n[cnt] = creatTreeNode(val);
         }
     for (int i = 0; i < cnt; i++) {
         if (2 * i + 1 < cnt && n[i])
@@ -43,7 +55,11 @@ TreeNode* creatTree (const char *in)
         if (2  * i + 2 < cnt && n[i])
             n[i]->right = n[2 * i + 2];
     }
-    return n[0];
+    
+    TreeNode *re = n[0];
+    free(n);
+    free(input_base);
+    return re;
 }
 void freeTree(TreeNode* root)
 {

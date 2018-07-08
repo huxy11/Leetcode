@@ -12,6 +12,7 @@
 #include <stdio.h>
 #include "BinaryTree.h"
 
+int32_t isBST(TreeNode* root);
 TreeNode* minBST(TreeNode* root);
 TreeNode* maxBST(TreeNode* root);
 TreeNode* findBST(TreeNode* root, int32_t val);

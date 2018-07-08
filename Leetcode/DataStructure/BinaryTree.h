@@ -22,7 +22,6 @@ typedef struct TreeNode {
 TreeNode* creatTree(const char* in);
 TreeNode* creatTreeNode(int32_t val);
 void freeTree(TreeNode* root);
-//TreeNode* creatBST(const char* in);
 
 void printTreePre(TreeNode *root);
 void printTreeMid(TreeNode *root);

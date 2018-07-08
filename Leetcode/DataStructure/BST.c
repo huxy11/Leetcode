@@ -8,6 +8,11 @@
 
 #include "BST.h"
 
+int32_t isBST(TreeNode* root)
+{
+    printTreeMid(root);
+    return 0;
+}
 TreeNode* minBST(TreeNode* root)
 {
     while (root && root->left) {

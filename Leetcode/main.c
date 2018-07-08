@@ -15,7 +15,7 @@
 #include "Stack.h"
 #include "Queue.h"
 #include "BST.h"
-#include "788.h"
+#include "606.h"
 
 static int fb_tail(int* a, int* n)
 {
@@ -70,7 +70,7 @@ static void qs(int *a, size_t lo, size_t hi)
 
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
     printf("Test starts!\n");
-    rotatedDigits(857);
+    struct TreeNode* root = creatTree("[1,2,3,null,4]");
+    tree2str(root);
 }
