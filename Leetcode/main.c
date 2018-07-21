@@ -15,7 +15,7 @@
 #include "Stack.h"
 #include "Queue.h"
 #include "BST.h"
-#include "606.h"
+#include "13.h"
 
 static int fb_tail(int* a, int* n)
 {
@@ -67,10 +67,16 @@ static void qs(int *a, size_t lo, size_t hi)
     qs(a, m + 1, hi);
 }
 
-
+static void test_qs(int* a, int lo, int hi)
+{
+    int i = lo, j = lo - 1;
+    for (;i <= hi; i++) {
+        if (a[i] <= a[hi])
+            swap(&a[++j], &a[i]);
+    }
+}
 
 int main(int argc, const char * argv[]) {
     printf("Test starts!\n");
-    struct TreeNode* root = creatTree("[1,2,3,null,4]");
-    tree2str(root);
+    printf("%d\n", romanToInt("0"));
 }
