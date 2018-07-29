@@ -69,11 +69,8 @@ static void qs(int *a, size_t lo, size_t hi)
 
 static void test_qs(int* a, int lo, int hi)
 {
-    int i = lo, j = lo - 1;
-    for (;i <= hi; i++) {
-        if (a[i] <= a[hi])
-            swap(&a[++j], &a[i]);
-    }
+    
+
 }
 
 int main(int argc, const char * argv[]) {
