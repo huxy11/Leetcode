@@ -10,5 +10,10 @@
 #define _38_h
 
 #include <stdio.h>
+#include <stdlib.h>
+#include "BinaryTree.h"
+
+struct TreeNode* convertBST(struct TreeNode* root);
+void ut_538(void);
 
 #endif /* _38_h */

@@ -15,7 +15,7 @@
 #include "Stack.h"
 #include "Queue.h"
 #include "BST.h"
-#include "13.h"
+#include "349.h"
 
 static int fb_tail(int* a, int* n)
 {
@@ -67,13 +67,8 @@ static void qs(int *a, size_t lo, size_t hi)
     qs(a, m + 1, hi);
 }
 
-static void test_qs(int* a, int lo, int hi)
-{
-    
-
-}
-
 int main(int argc, const char * argv[]) {
     printf("Test starts!\n");
-    printf("%d\n", romanToInt("0"));
+    ut_349();
+    printf("Test done!\n");
 }
