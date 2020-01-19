@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5059C8323C732AF009A8617 /* 1046.c in Sources */ = {isa = PBXBuildFile; fileRef = D5059C8223C732AF009A8617 /* 1046.c */; };
+		D5059C8623C9C0C9009A8617 /* heap.c in Sources */ = {isa = PBXBuildFile; fileRef = D5059C8523C9C0C9009A8617 /* heap.c */; };
 		D508DE3720B091F30085F0E2 /* 500.c in Sources */ = {isa = PBXBuildFile; fileRef = D508DE3620B091F30085F0E2 /* 500.c */; };
 		D508DE3A20B136E50085F0E2 /* 682.c in Sources */ = {isa = PBXBuildFile; fileRef = D508DE3920B136E50085F0E2 /* 682.c */; };
 		D508DE3D20B1459A0085F0E2 /* 575.c in Sources */ = {isa = PBXBuildFile; fileRef = D508DE3C20B1459A0085F0E2 /* 575.c */; };
@@ -72,6 +74,7 @@
 		D5C34E1620F8819000F4556E /* 717.c in Sources */ = {isa = PBXBuildFile; fileRef = D5C34E1520F8819000F4556E /* 717.c */; };
 		D5C34E1920F8840C00F4556E /* 171.c in Sources */ = {isa = PBXBuildFile; fileRef = D5C34E1820F8840C00F4556E /* 171.c */; };
 		D5C75953219FEFAF00599344 /* 122.c in Sources */ = {isa = PBXBuildFile; fileRef = D5C75952219FEFAF00599344 /* 122.c */; };
+		D5E6534021A2A6CF0076BAE7 /* 451.c in Sources */ = {isa = PBXBuildFile; fileRef = D5E6533F21A2A6CF0076BAE7 /* 451.c */; };
 		D5FD694820B6A02400BDF281 /* 389.c in Sources */ = {isa = PBXBuildFile; fileRef = D5FD694720B6A02400BDF281 /* 389.c */; };
 		D5FD694B20B7D9C500BDF281 /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = D5FD694A20B7D9C500BDF281 /* QuickSort.c */; };
 		D5FD694E20B7F18B00BDF281 /* 448.c in Sources */ = {isa = PBXBuildFile; fileRef = D5FD694D20B7F18B00BDF281 /* 448.c */; };
@@ -94,6 +97,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D5059C8123C732AF009A8617 /* 1046.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 1046.h; sourceTree = "<group>"; };
+		D5059C8223C732AF009A8617 /* 1046.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1046.c; sourceTree = "<group>"; };
+		D5059C8423C9C0C9009A8617 /* heap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = heap.h; sourceTree = "<group>"; };
+		D5059C8523C9C0C9009A8617 /* heap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = heap.c; sourceTree = "<group>"; };
 		D508DE3520B091F30085F0E2 /* 500.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 500.h; sourceTree = "<group>"; };
 		D508DE3620B091F30085F0E2 /* 500.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 500.c; sourceTree = "<group>"; };
 		D508DE3820B136E50085F0E2 /* 682.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 682.h; sourceTree = "<group>"; };
@@ -225,6 +232,8 @@
 		D5C34E1820F8840C00F4556E /* 171.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 171.c; sourceTree = "<group>"; };
 		D5C75951219FEFAF00599344 /* 122.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 122.h; sourceTree = "<group>"; };
 		D5C75952219FEFAF00599344 /* 122.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 122.c; sourceTree = "<group>"; };
+		D5E6533E21A2A6CF0076BAE7 /* 451.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 451.h; sourceTree = "<group>"; };
+		D5E6533F21A2A6CF0076BAE7 /* 451.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 451.c; sourceTree = "<group>"; };
 		D5FD694620B6A02400BDF281 /* 389.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 389.h; sourceTree = "<group>"; };
 		D5FD694720B6A02400BDF281 /* 389.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 389.c; sourceTree = "<group>"; };
 		D5FD694920B7D9C500BDF281 /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
@@ -269,6 +278,8 @@
 				D5C277A0205E87CE005F3FE3 /* BST.c */,
 				D5FD694920B7D9C500BDF281 /* QuickSort.h */,
 				D5FD694A20B7D9C500BDF281 /* QuickSort.c */,
+				D5059C8423C9C0C9009A8617 /* heap.h */,
+				D5059C8523C9C0C9009A8617 /* heap.c */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
@@ -430,6 +441,10 @@
 				D53EADE92111A9DC006F70FF /* 349.c */,
 				D5C75951219FEFAF00599344 /* 122.h */,
 				D5C75952219FEFAF00599344 /* 122.c */,
+				D5E6533E21A2A6CF0076BAE7 /* 451.h */,
+				D5E6533F21A2A6CF0076BAE7 /* 451.c */,
+				D5059C8123C732AF009A8617 /* 1046.h */,
+				D5059C8223C732AF009A8617 /* 1046.c */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -483,6 +498,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = D55ABB661F33188C00D3EABC;
@@ -500,6 +516,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5059C8323C732AF009A8617 /* 1046.c in Sources */,
 				D508DE8B20B53E830085F0E2 /* 796.c in Sources */,
 				D508DE6A20B3248C0085F0E2 /* 292.c in Sources */,
 				D508DE6720B31D060085F0E2 /* 338.c in Sources */,
@@ -509,6 +526,7 @@
 				D508DE5E20B315870085F0E2 /* 260.c in Sources */,
 				D508DE5220B1A8930085F0E2 /* 693.c in Sources */,
 				D5C34E1920F8840C00F4556E /* 171.c in Sources */,
+				D5059C8623C9C0C9009A8617 /* heap.c in Sources */,
 				D508DE4F20B19EA10085F0E2 /* 824.c in Sources */,
 				D5FD695A20B96DC000BDF281 /* 653.c in Sources */,
 				D5FD695120B91FAA00BDF281 /* 788.c in Sources */,
@@ -553,6 +571,7 @@
 				D508DE4920B194EB0085F0E2 /* 566.c in Sources */,
 				D55ABB841F39FFE200D3EABC /* 655.c in Sources */,
 				D508DE3A20B136E50085F0E2 /* 682.c in Sources */,
+				D5E6534021A2A6CF0076BAE7 /* 451.c in Sources */,
 				D5BB110620AD6FF200509927 /* 832.c in Sources */,
 				D55ABB7B1F33189E00D3EABC /* 650.c in Sources */,
 				D5BB112A20B022D000509927 /* 344.c in Sources */,

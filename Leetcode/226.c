@@ -20,6 +20,7 @@ static void it(struct TreeNode* root)
         it(root->left);
 }
 
+
 struct TreeNode* invertTree(struct TreeNode* root) {
     if (!root)
         return NULL;

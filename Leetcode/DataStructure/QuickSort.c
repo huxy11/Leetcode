@@ -16,6 +16,12 @@ static void swap(void* a, void* b, size_t size)
     memcpy(a, b, size);
     memcpy(b, tmp, size);
 }
+static void int_swap(int32_t* restrict a, int32_t* restrict b)
+{
+    int32_t tmp = *a;
+    *a = *b;
+    *b = tmp;
+}
 
 void quickSort(void *a, const size_t size, const size_t lo, const size_t hi)
 {
@@ -36,14 +42,30 @@ void quickSort(void *a, const size_t size, const size_t lo, const size_t hi)
         quickSort(a, size, m + 1, hi);
 }
 
-static int main(int argc, const char* argv[])
+static void qss(int32_t* a, size_t lo, size_t hi)
 {
-    int a[] = {9,99,99,99,2,3,4,4,4,2,1};
+    if (lo >= hi)
+        return;
+    size_t i = lo, j = lo;
+    for (; j<=hi; ++j) {
+        if (a[j] <= a[hi])
+            int_swap(&a[i++], &a[j]);
+    }
+    if ((i - 2 > lo)&&(i - 1 != lo))
+        qss(a, lo, i - 2);
+    if ((i < hi)&&(i - 1 != hi))
+        qss(a, i, hi);
+}
+
+void test_of_QuickSort(int argc, const char* argv[])
+{
+    int a[] = {9,8,7,6,5,4,3,2,1};
     int len = sizeof(a)/sizeof(int);
-    quickSort(a, 4, 0, len - 1);
-//    swap(&a[0], &a[1], 4);
+//    quickSort(a, 4, 0, len - 1);
+    qss(a, 0, len - 1);
     for (int i = 0; i < len; i++)
         printf("%d  ", a[i]);
+    
     printf("\n");
 
 }
